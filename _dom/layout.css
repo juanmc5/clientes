@@ -1,0 +1,39 @@
+#header{background-color:#419aed;background:url(../_imgs/b.png)}
+#options ul li a:hover, #grupos ul li a:hover{background:#419aed}
+.ebox{background:#c3d6e7}
+.par:hover, .impar:hover{background-color: #c3d6e7}
+#comms li:hover, #dirs li:hover, #notas li:hover, #maingrupos li:hover{background-color:#e8f3fc}
+#comms2 li:hover, #dirs2 li:hover{background-color:#eee}
+
+#comms2 h3, #comms2 p,  #dirs2 h3,  #dirs2 p, #comms2 a, #dirs2 a{color:#666}
+
+.g1 a:hover{background:#6cc}
+.g2 a:hover{background:#f63}
+.g3 a:hover{background:#b3cc00}
+.g4 a:hover{background:#699}
+
+.grupos li{display:inline;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;-ms-border-radius:10px;color:#666;background:#eee;font-size:11px;font-weight:bold;padding:3px 10px;margin-right:8px;cursor:pointer}
+.grupos li:hover{color:#FFF;text-decoration:none;background:#419aed}
+
+.hangcontroles{margin:0 0 12px 20px}
+.hangcontroles li{display:inline;margin-right:12px}
+.hangcontroles li a{font:bold 11px "Lucida Sans Unicode", "Lucida Grande", sans-serif;color:#556A72;background:#f5f9fb;text-shadow: #f5f9fb -1px -1px 0;padding: 6px 10px;margin: 2px;-webkit-border-bottom-right-radius: 12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomright: 12px;-moz-border-radius-bottomleft:12px;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;-moz-box-shadow:2px 2px 6px #bbb;-webkit-box-shadow:2px 2px 6px #bbb;box-shadow:2px 2px 6px #bbb}
+.hangcontroles li a:hover{color:#2f3b43 !important;background:#e3eef4;text-decoration:none;}
+.hangcontroles li a.activa{background-color: #c3d6e7}
+
+#contactos ul{height:560px;overflow:auto}
+#contactos li{background:#FFF;margin:8px 8px 0 0;padding:8px;border-bottom:1px solid #eee;
+-webkit-border-top-left-radius:8px;-webkit-border-top-right-radius:8px;-moz-border-radius-topleft:8px;-moz-border-radius-topright:8px;border-top-left-radius:8px;border-top-right-radius:8px;-moz-box-shadow:2px 2px 6px #bbb;-webkit-box-shadow:2px 2px 6px #bbb;box-shadow:2px 2px 6px #bbb;overflow:hidden}
+#contactos li a{font-size:12px;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;display:inline !important}
+#contactos li a:hover{color:blue !important;text-decoration:underline !important;background:none}
+
+#magni{text-align:center;font:bold 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+#magni_numero{font-size:24px;margin-bottom:8px}
+#magni_datos{font-weight:normal}
+
+br{height:0}
+
+
+#resultados th a{font:bold 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+#resultados th a:hover{color:blue;text-decoration:underline}		
+#resultados table thead tr:hover{background: none !important}
