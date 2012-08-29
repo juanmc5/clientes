@@ -18,38 +18,7 @@ function doParticular() {
 	}
 }
 
-// function saveCliente() {
-// 	if(rsv.validate(document.getElementById('formulario'), rulesCliente)) {
-// 		new Ajax.Request('_incl/dispatcher.php', {
-// 			method:'post',
-// 			parameters: {accion: $('#op').val() == 'add' ? 2 : 3,
-// 						objeto:1,
-// 						id: $('#id').val(),
-// 						nombre: $('#nombre').val(),
-// 						particular: $('#particular').val() ? 1 : 0,
-// 						razonsocial: $('#razonsocial').val(),
-// 						nif: $('#nif').val(),
-// 						division: $('#division').val(),
-// 						estado: $('#estado').val()
-// 						},
-// 			onSuccess: function(transport){
-// 				if(transport.responseText != -69) {
-// 					if($('#id').val() == -1) {
-// 						var destino =  transport.responseText;
-// 					} else {
-// 						var destino = $('#id').val();
-// 					}
-// 					document.location='cliente.php?id=' + destino;
-// 					return;
-// 					
-// 				} else {
-// 					alert('Ha ocurrido un error al grabar el cliente.');
-// 				}
-// 			}
-// 		});
-// 		cancelEdit();
-// 	}
-// }
+
 function saveCliente() {
 	if(rsv.validate(document.getElementById('formulario'), rulesCliente)) {
 		$.ajax({url: '_incl/dispatcher.php', 
